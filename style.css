@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
     font-family: "prompt", sherif;
     height: 100vh;
     background-color: #040404;
+    position: relative;
 }
 .nav-links{
     display: flex;
@@ -54,12 +55,12 @@ a:hover{
     font-weight: bold;
 }
 .info h1{
-    color: orange;
+   color: #fff;
     font-weight: 300px;
 }
 
-.info h2{
-    color: white;
+ h2{
+    color: orange;
 }
 
 .info button{
@@ -92,5 +93,8 @@ a:hover{
     height: 600px;
     margin-left: 310px;
     border-radius: 50px;
-    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+
 }
