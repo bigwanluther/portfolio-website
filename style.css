@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: "prompt", sherif;
+    height: 100vh;
+    background-color: #040404;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    margin:0 50px;
+   
+}
+.nav-items{
+    display: flex;
+    gap:20px ;
+}
+span{
+    font-family: "Roboto", serif;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+span,a{
+    color: #fff;
+    font-family: "prompt",sherif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:#ffbb3b;
+}
+.bigwan{
+    font-weight: 900;
+}
+.info{
+    display: flex;
+    margin: 300px;
+    
+}
+
+
+.info p{
+    color: #e9660f;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.info h1{
+    color: orange;
+    font-weight: 300px;
+}
+
+.info h2{
+    color: white;
+}
+
+.info button{
+    width: 100PX;
+    height: 50PX;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.info button:hover{
+    background-color: rgb(196, 128, 4);
+    transition: ease 0.5s;
+}
+
+.info .btn2{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}
+
+.info .btn2:hover{
+    background-color: rgb(46, 46, 46);
+}
+
+.myself img{
+    width: 500px;
+    height: 600px;
+    margin-left: 310px;
+    border-radius: 50px;
+    position: relative;
+}
